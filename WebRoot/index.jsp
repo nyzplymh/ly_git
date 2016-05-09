@@ -21,8 +21,63 @@
 <input type="hidden" id="demo"value="hello,world"/> 
 <script type="text/javascript">
 	$(function(){
-		alert($("#demo").val());
 	})
 </script>
+<div class="container">
+		<table class="table table-striped table-bordered">
+			<tbody>
+				<tr>
+					<th>#</th>
+					<th>FirstName</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Jhoson1</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jhoson2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Jhoson3</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="container">
+	<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<th>产品</th>
+					<th>付款日期</th>
+					<th>状态</th>
+				</tr>
+				<tr class="active">
+					<td>1</td>
+					<td>Jhoson1</td>
+					<td>Jhoson1</td>
+				</tr>
+				<tr class="success">
+					<td>2</td>
+					<td>Jhoson2</td>
+					<td>Jhoson2</td>
+				</tr>
+				<tr class="warning">
+					<td>3</td>
+					<td>Jhoson3</td>
+					<td>Jhoson3</td>
+				</tr>
+				<tr class="danger">
+					<td>3</td>
+					<td>Jhoson3</td>
+					<td>Jhoson3</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
 </body>
 </html>
